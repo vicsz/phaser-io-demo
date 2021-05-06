@@ -7,5 +7,12 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "scripts": {
+    "zip-source": "git archive --format=zip HEAD > node-express-demo.zip",
+    "zip-all": "pack-zip"
+  },
+  "devDependencies": {
+    "pack-zip": "^0.2.2"
   }
 }
